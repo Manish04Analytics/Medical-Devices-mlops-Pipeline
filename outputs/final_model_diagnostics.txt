@@ -1,0 +1,45 @@
+HEALTHCARE MEDICAL-DEVICE SALES
+FINAL MODEL DIAGNOSTICS REPORT
+======================================================================
+
+MODEL
+Optimized Gradient Boosting Regressor
+
+HYPERPARAMETERS
+----------------------------------------------------------------------
+n_estimators: 300
+learning_rate: 0.03
+max_depth: 7
+min_samples_leaf: 3
+
+FINAL TEST PERFORMANCE
+----------------------------------------------------------------------
+MAE  : 1.1825
+RMSE : 1.9490
+R²   : 0.9610
+MAPE : 4.15%
+
+PREDICTION DIAGNOSTICS
+----------------------------------------------------------------------
+Number of test predictions: 1,478
+Mean residual: 0.2820
+Median residual: 0.1041
+Residual standard deviation: 1.9291
+Maximum absolute error: 13.6191
+
+PREDICTION DIRECTION
+----------------------------------------------------------------------
+Underprediction: 819 (55.41%)
+Overprediction: 659 (44.59%)
+
+INTERPRETATION
+----------------------------------------------------------------------
+The final test set was kept separate from hyperparameter selection.
+Residuals represent the difference between actual and predicted demand.
+A residual near zero indicates a prediction close to the observed demand.
+Residual analysis should be used to identify systematic prediction errors and potential areas for future model improvement.
+
+CAUTION
+----------------------------------------------------------------------
+Predictive performance does not establish causal relationships.
+The model should support demand-planning decisions rather than replace human review.

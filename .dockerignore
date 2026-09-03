@@ -1,0 +1,49 @@
+# ============================================================
+# Docker Ignore File
+# ============================================================
+
+# Git
+.git
+.gitignore
+.github
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv
+.venv
+env
+ENV
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints
+
+# Test/cache files
+.pytest_cache
+.mypy_cache
+
+# Logs
+*.log
+
+# Local development files
+.env
+.env.*
+
+# Raw/generated development datasets
+data/raw
+
+# Temporary files
+*.tmp
+*.temp

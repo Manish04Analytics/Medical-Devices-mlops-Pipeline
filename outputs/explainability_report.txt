@@ -1,0 +1,41 @@
+HEALTHCARE MEDICAL-DEVICE SALES
+MODEL EXPLAINABILITY REPORT
+======================================================================
+
+MODEL
+Gradient Boosting Regressor
+
+TEST SET DIAGNOSTICS
+MAE  : 1.3570
+RMSE : 2.0393
+
+TOP 20 FEATURES
+----------------------------------------------------------------------
+1. Demand_Rolling_Mean_28 (75.38%)
+2. Demand_Growth_7D (7.75%)
+3. Demand_Lag_7 (4.34%)
+4. Inventory_Level (4.08%)
+5. Demand_Growth_28D (1.45%)
+6. Average_Inventory (1.03%)
+7. Demand_Rolling_Mean_14 (0.77%)
+8. Demand_Rolling_Mean_7 (0.61%)
+9. Promotion_Flag (0.54%)
+10. Demand_CV_28D (0.44%)
+11. Demand_Lag_28 (0.43%)
+12. Demand_Lag_2 (0.29%)
+13. Hospital_Size_Medium (0.27%)
+14. Product_Category_Patient_Monitoring (0.18%)
+15. Demand_Lag_1 (0.17%)
+16. Hospital_Size_Large (0.16%)
+17. Demand_Rolling_Std_28 (0.16%)
+18. Demand_Rolling_Mean_3 (0.15%)
+19. Month (0.15%)
+20. Promotion_Rate (0.14%)
+
+INTERPRETATION
+----------------------------------------------------------------------
+Feature importance indicates how strongly each feature contributes to the Gradient Boosting model's predictive decisions.
+
+IMPORTANT:
+Feature importance does not imply causality.
+Business interpretation should therefore be combined with domain knowledge and additional explainability techniques.
